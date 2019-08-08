@@ -1,0 +1,33 @@
+name: cyclegan
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - opencv>=3.4.2
+  - pytorch>=1.1
+  - pandas>=0.24.2
+  - pip>=19.0.3
+  - python>=3.6.9
+  - scipy>=1.2.1
+  - visdom>=0.1.8.8
+  - matplotlib
+  - pyyaml
+  - cython
+  - pip:
+    - dominate>=2.3.1
+    - /media/data/GitHub/dependencies/ctcdecode
+    - biopython==1.73
+    - editdistance==0.5.3
+    - gputil==1.4.0
+    - pillow==6.0.0
+    - protobuf==3.7.1
+    - six==1.12.0
+    - tensorboardx==1.6
+    #- torch==1.1.0
+    - torchfile==0.1.0
+    - torchvision==0.2.2.post3
+    - wget
+    - ipykernel
+#prefix: /panfs/pan.fsl.byu.edu/scr/grp/fslg_hwr/env/hwr
+
